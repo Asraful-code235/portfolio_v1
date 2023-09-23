@@ -3,7 +3,7 @@ import { cn } from "@/lib/utils";
 
 export default function Card({ bgClassName, name, category, image }) {
   return (
-    <div className="rounded-2xl flex overflow-hidden">
+    <div className="flex-1 rounded-2xl flex overflow-hidden">
       <div
         className={cn(
           `flex-1 bg-black p-4 md:p-6 flex flex-col justify-between text-white`,
@@ -21,7 +21,7 @@ export default function Card({ bgClassName, name, category, image }) {
         <Image
           src={image}
           alt="placeholder"
-          className="w-full h-[300px] object-cover"
+          className="w-full min-h-[176px] md:min-h-[300px] h-full object-cover"
         />
       </div>
     </div>

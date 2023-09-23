@@ -17,7 +17,9 @@ export default function Navbar() {
   return (
     <nav className="p-4 space-y-6 text-sm md:text-base border-b">
       <div className="flex justify-between items-center">
-        <Image src={logo} alt="logo" className="w-6 md:w-10" />
+        <Link href="/">
+          <Image src={logo} alt="logo" className="w-6 md:w-10" />
+        </Link>
 
         <ul className="hidden md:block space-x-7">
           {navLinks.map((link) => (

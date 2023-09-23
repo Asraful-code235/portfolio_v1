@@ -3,8 +3,9 @@ import { cn } from "@/lib/utils";
 const variants = {
   unstyled: "p-0 rounded-0 text-base",
   primary: "bg-black text-white",
-  secondary: "bg-gray-200 text-black",
-  warning: "bg-yellow-300 text-black border border-black",
+  secondary: "bg-gray-200",
+  warning: "bg-yellow-300 border border-black",
+  light: "border border-black",
 };
 
 export default function Button({
