@@ -5,5 +5,6 @@ import mm from "./mm.png";
 import nike from "./nike.png";
 import nm from "./nm.png";
 import imagePlaceholder from "./image-placeholder.jpg";
+import logo from "./logo.png";
 
-export { fresh, fourSeasons, logos, mm, nike, nm, imagePlaceholder };
+export { fresh, fourSeasons, logos, mm, nike, nm, imagePlaceholder, logo };
