@@ -1,3 +1,4 @@
+import Cards from "@/components/pages/home/Cards";
 import DarkCard from "@/components/pages/home/DarkCard";
 import Features from "@/components/pages/home/Features";
 import HeroCard from "@/components/pages/home/HeroCard";
@@ -14,6 +15,7 @@ export default function Home() {
           We work with brands of all sizes,
           <br className="md:hidden" /> as well as creating new ones.
         </p>
+        <Cards />
       </div>
     </PageContainer>
   );
