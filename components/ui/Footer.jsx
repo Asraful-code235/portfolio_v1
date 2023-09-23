@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <section
       id="footer"
-      className="py-4 border-t space-y-4 text-sm md:text-base"
+      className="p-4 border-t space-y-4 text-sm md:text-base"
     >
       <div
         id="newsletter-card"

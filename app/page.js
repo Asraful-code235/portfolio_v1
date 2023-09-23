@@ -2,7 +2,6 @@ import Cards from "@/components/pages/home/Cards";
 import DarkCard from "@/components/pages/home/DarkCard";
 import Features from "@/components/pages/home/Features";
 import HeroCard from "@/components/pages/home/HeroCard";
-import Footer from "@/components/ui/Footer";
 import PageContainer from "@/components/ui/PageContainer";
 
 export default function Home() {
@@ -17,7 +16,6 @@ export default function Home() {
           <br className="md:hidden" /> as well as creating new ones.
         </p>
         <Cards />
-        <Footer />
       </div>
     </PageContainer>
   );
