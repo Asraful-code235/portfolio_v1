@@ -4,7 +4,7 @@ import logos from "./logos.png";
 import mm from "./mm.png";
 import nike from "./nike.png";
 import nm from "./nm.png";
-import imagePlaceholder from "./image-placeholder.jpg";
+import productPlaceholder from "./product-placeholder.png";
 import logo from "./logo.png";
 
-export { fresh, fourSeasons, logos, mm, nike, nm, imagePlaceholder, logo };
+export { fresh, fourSeasons, logos, mm, nike, nm, productPlaceholder, logo };

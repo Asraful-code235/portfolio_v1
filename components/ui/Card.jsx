@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { cn } from "@/lib/utils";
-import { imagePlaceholder } from "@/public/images";
+import { productPlaceholder } from "@/public/images";
 
 export default function Card({ className }) {
   return (
@@ -20,7 +20,7 @@ export default function Card({ className }) {
 
       <div className="flex-1">
         <Image
-          src={imagePlaceholder}
+          src={productPlaceholder}
           alt="placeholder"
           className="w-full h-[300px] object-cover"
         />
