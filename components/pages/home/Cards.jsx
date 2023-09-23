@@ -1,10 +1,12 @@
 import Card from "@/components/ui/Card";
+import { cardsData } from "@/constants/homePage";
 
 export default function Cards() {
   return (
     <section id="cards" className="grid md:grid-cols-2 gap-4">
-      <Card className="bg-pink-500" />
-      <Card />
+      {cardsData.slice(0, 2).map((card) => (
+        <Card key={card.name} {...card} />
+      ))}
     </section>
   );
 }

@@ -16,22 +16,22 @@ export const socialLinks = [
 export const links = [
   {
     page: "Portfolio",
-    href: "#",
+    href: "/portfolio",
   },
   {
     page: "Services",
-    href: "#",
+    href: "/services",
   },
   {
     page: "About",
-    href: "#",
+    href: "/about",
   },
   {
     page: "Blog",
-    href: "#",
+    href: "/blog",
   },
   {
     page: "Contact",
-    href: "#",
+    href: "contact",
   },
 ];

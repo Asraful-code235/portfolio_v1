@@ -3,13 +3,11 @@ import Button from "./Button";
 import { links, socialLinks } from "@/constants/footer";
 import Image from "next/image";
 import { logo } from "@/public/images";
+import Link from "next/link";
 
 export default function Footer() {
   return (
-    <section
-      id="footer"
-      className="p-4 border-t space-y-4 text-sm md:text-base"
-    >
+    <footer className="p-4 border-t space-y-4 text-sm md:text-base">
       <div
         id="newsletter-card"
         className="flex flex-col md:flex-row justify-between gap-6 p-4 bg-yellow-300 rounded-lg"
@@ -67,7 +65,9 @@ export default function Footer() {
 
           <ul>
             {links.map((link) => (
-              <li key={link.page}>{link.page}</li>
+              <Link key={link.page} href={link.href} className="block">
+                {link.page}
+              </Link>
             ))}
           </ul>
         </div>
@@ -83,6 +83,6 @@ export default function Footer() {
           </div>
         </div>
       </div>
-    </section>
+    </footer>
   );
 }

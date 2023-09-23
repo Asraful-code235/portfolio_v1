@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
-import { features } from "@/constants/homePageTexts";
+import { features } from "@/constants/homePage";
 import logos from "@/public/images/logos.png";
 
 export default function Features() {
