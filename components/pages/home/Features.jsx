@@ -10,7 +10,7 @@ export default function Features() {
       className="flex flex-col md:flex-row divide-y-2 md:divide-y-0 md:divide-x-2 divide-black"
     >
       <div className="pr-12 pb-8 md:pb-0 flex-[2] flex flex-col justify-between gap-y-8">
-        <p className="text-[32px]">
+        <p className="text-sm md:text-3xl">
           Carte Blanche Studio and its projects have been profiled in
           publications such as Entrepreneur, Fast Company, New York Magazine,
           and Forbes.
@@ -29,7 +29,7 @@ export default function Features() {
               <ArrowUpRight />
             </div>
 
-            <p className={`${i !== 2 ? "py-8" : "pt-8"}`}>
+            <p className={`${i !== 2 ? "py-8" : "pt-8"} text-sm sm:text-base`}>
               {feature.description}
             </p>
           </li>

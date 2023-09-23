@@ -5,7 +5,7 @@ import PageContainer from "@/components/ui/PageContainer";
 export default function Home() {
   return (
     <PageContainer>
-      <div className="space-y-10">
+      <div className="space-y-6 md:space-y-10">
         <HeroCard />
         <Features />
       </div>
