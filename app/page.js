@@ -10,6 +10,10 @@ export default function Home() {
         <HeroCard />
         <Features />
         <DarkCard />
+        <p className="text-xl md:text-3xl">
+          We work with brands of all sizes,
+          <br className="md:hidden" /> as well as creating new ones.
+        </p>
       </div>
     </PageContainer>
   );
