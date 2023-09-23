@@ -11,11 +11,11 @@ export default function Card({ className }) {
           className
         )}
       >
-        <h5 className="font-bold">Modern Museum</h5>
-        <h3 className="text-3xl font-bold">
+        <h5 className="font-bold text-sm md:text-base">Modern Museum</h5>
+        <h3 className="text-xl lg:text-3xl font-bold">
           Lorem ipsum <br /> dolor sit amet
         </h3>
-        <h5>NFT Platform</h5>
+        <h5 className="text-sm md:text-base ">NFT Platform</h5>
       </div>
 
       <div className="flex-1">
