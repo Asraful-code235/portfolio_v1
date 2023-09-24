@@ -27,9 +27,11 @@ export default function Navbar() {
               {link.title}
             </Link>
           ))}
-          <Button variant="warning" className="w-fit">
-            Let's Talk
-          </Button>
+          <Link href="/contact">
+            <Button variant="warning" className="w-fit">
+              Let's Talk
+            </Button>
+          </Link>
         </ul>
 
         <Button
@@ -48,9 +50,11 @@ export default function Navbar() {
               {link.title}
             </Link>
           ))}
-          <Button variant="warning" className="w-fit">
-            Let's Talk
-          </Button>
+          <Link href="/contact">
+            <Button variant="warning" className="w-fit">
+              Let's Talk
+            </Button>
+          </Link>
         </ul>
       ) : null}
     </nav>
