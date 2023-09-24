@@ -1,5 +1,4 @@
 import PageContainer from "@/components/ui/PageContainer";
-import { cn } from "@/lib/utils";
 
 export default function AboutPage() {
   return (
