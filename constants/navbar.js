@@ -1,18 +1,18 @@
 export const navLinks = [
   {
     title: "Work",
-    href: "#",
+    href: "work",
   },
   {
     title: "Services",
-    href: "#",
+    href: "services",
   },
   {
     title: "About",
-    href: "#",
+    href: "about",
   },
   {
     title: "Blog",
-    href: "#",
+    href: "blog",
   },
 ];
