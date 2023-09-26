@@ -29,7 +29,7 @@ export default function Navbar() {
           ))}
           <Link href="/contact">
             <Button variant="warning" className="w-fit">
-              Let's Talk
+              Let&apos;s Talk
             </Button>
           </Link>
         </ul>
@@ -52,7 +52,7 @@ export default function Navbar() {
           ))}
           <Link href="/contact">
             <Button variant="warning" className="w-fit">
-              Let's Talk
+              Let&apos;s Talk
             </Button>
           </Link>
         </ul>
