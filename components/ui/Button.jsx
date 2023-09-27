@@ -4,7 +4,7 @@ const variants = {
   unstyled: "p-0 rounded-0 text-base",
   primary: "bg-black text-white",
   secondary: "bg-gray-200",
-  warning: "bg-yellow-300 border border-black",
+  warning: "bg-yellow-300 border border-black px-6 py-2 md:text-sm",
   light: "border border-black",
 };
 
