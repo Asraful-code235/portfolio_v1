@@ -7,44 +7,46 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="p-4 border-t space-y-4 text-sm md:text-base">
+    <footer className="p-[14px] md:p-4 border-t space-y-[14px] md:space-y-4 text-sm md:text-base">
       <div
         id="newsletter-card"
-        className="flex flex-col md:flex-row justify-between gap-6 p-4 bg-yellow-300 rounded-lg"
+        className="flex flex-col md:flex-row justify-between gap-6 p-[14px] md:p-4 bg-yellow-300 rounded-lg"
       >
-        <div>
+        <div className="lg:flex-[2]">
           <h3 className="text-sm font-bold">Newsletter</h3>
-          <p className="text-sm md:text-base">
+          <p className="text-sm">
             Subscribe to our mailing to receive exclusive access to our monthly
             newsletter.
           </p>
         </div>
 
-        <form className="flex items-center gap-x-4">
+        <form className="flex lg:flex-1 items-center gap-x-[14px] md:gap-x-4">
           <input
             type="text"
             placeholder="Email address *"
-            className="w-full rounded-lg px-4 py-2 border border-black text-sm md:text-base"
+            className="w-full rounded-lg px-4 py-3 border border-black text-sm"
           />
-          <Button className="border border-black">Subscribe</Button>
+          <Button className="border border-black px-4 py-3 md:text-sm">
+            Subscribe
+          </Button>
         </form>
       </div>
 
-      <div id="social-links" className="flex gap-3 flex-wrap">
+      <div id="social-links" className="flex gap-[14px] flex-wrap">
         {socialLinks.map((link) => (
           <Button
             key={link.platform}
             variant="secondary"
-            className="flex-1 flex items-center justify-center gap-5 font-bold p-5"
+            className="flex-1 flex items-center justify-between gap-5 md:text-sm font-bold px-[14px] py-[18px]"
           >
-            {link.platform} <ArrowUpRight className="w-3" />
+            {link.platform} <ArrowUpRight className="w-5" />
           </Button>
         ))}
       </div>
 
       <div
         id="links"
-        className="bg-gray-200 rounded-lg p-4 flex flex-col md:flex-row gap-10"
+        className="bg-gray-200 rounded-lg p-[14px] md:p-4 flex flex-col md:flex-row gap-8 md:gap-10 text-sm"
       >
         <div className="md:flex-[2] flex flex-col justify-between">
           <Image src={logo} alt="logo" className="w-6 md:w-10" />
@@ -72,7 +74,7 @@ export default function Footer() {
           </ul>
         </div>
 
-        <div id="info" className="md:hidden space-y-10">
+        <div id="info" className="md:hidden space-y-8 md:space-y-10">
           <div>
             <p>© Copyright 2023</p>
             <p className="font-bold">Carte Blanche Studio Inc.</p>

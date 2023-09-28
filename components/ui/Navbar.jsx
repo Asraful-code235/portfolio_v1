@@ -15,15 +15,15 @@ export default function Navbar() {
   }
 
   return (
-    <nav className="p-4 space-y-6 text-sm md:text-base border-b">
+    <nav className="p-[14px] md:px-4 md:py-6 space-y-6 text-sm md:text-base border-b">
       <div className="flex justify-between items-center">
         <Link href="/">
           <Image src={logo} alt="logo" className="w-6 md:w-10" />
         </Link>
 
-        <ul className="hidden md:block space-x-7">
+        <ul className="hidden md:block space-x-8">
           {navLinks.map((link) => (
-            <Link key={link.title} href={link.href}>
+            <Link key={link.title} href={link.href} className="text-sm">
               {link.title}
             </Link>
           ))}
