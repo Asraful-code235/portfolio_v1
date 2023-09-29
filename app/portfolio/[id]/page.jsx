@@ -1,6 +1,6 @@
 import Image from "next/image";
 import PageContainer from "@/components/ui/PageContainer";
-import { productPlaceholder } from "@/public/images";
+import { byblos, productPlaceholder, window } from "@/public/images";
 
 export default function PortfolioDetails() {
   return (
@@ -49,6 +49,22 @@ export default function PortfolioDetails() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="border-t-2 md:border-t-0 border-black py-6 space-y-6 md:space-y-10">
+        <div className="grid grid-cols-3 gap-3 md:gap-4">
+          <div className="col-span-2">
+            <Image src={window} alt="window" className="w-full h-full" />
+          </div>
+          <div className="">
+            <Image src={byblos} alt="byblos" className="w-full h-full flex-1" />
+          </div>
+        </div>
+
+        <p className="text-xl md:text-6xl">
+          Lorem ipsum dolor sit amet consectetur. Tempus venenatis eu sagittis
+          facilisi malesuada elit cras erat. Dui sit vitae in at ac est in duis.
+        </p>
       </section>
     </PageContainer>
   );
