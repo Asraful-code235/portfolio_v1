@@ -2,7 +2,6 @@ import Image from "next/image";
 import PageContainer from "@/components/ui/PageContainer";
 import {
   byblos,
-  poster,
   product,
   productPlaceholder,
   products,
