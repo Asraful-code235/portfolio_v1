@@ -1,6 +1,14 @@
 import Image from "next/image";
 import PageContainer from "@/components/ui/PageContainer";
-import { byblos, productPlaceholder, window } from "@/public/images";
+import {
+  byblos,
+  poster,
+  product,
+  productPlaceholder,
+  products,
+  widePhones,
+  window,
+} from "@/public/images";
 
 export default function PortfolioDetails() {
   return (
@@ -88,6 +96,14 @@ export default function PortfolioDetails() {
           </p>
         </div>
       </section>
+
+      <section className="grid grid-cols-2 gap-3 md:gap-4 ">
+        <Image src={widePhones} alt="wide-phones" className="col-span-2" />
+        <Image src={products} alt="product-1" className="" />
+        <Image src={product} alt="product-2" className="" />
+      </section>
+
+      <video controls src="" className="w-full bg-black rounded-lg"></video>
     </PageContainer>
   );
 }
