@@ -66,6 +66,28 @@ export default function PortfolioDetails() {
           facilisi malesuada elit cras erat. Dui sit vitae in at ac est in duis.
         </p>
       </section>
+
+      <section className="space-y-6 md:space-y-8">
+        <h3 className="text-xl font-medium md:text-[32px] md:pb-8 md:border-b-2 border-black">
+          La Mèmoire
+        </h3>
+        <div className="flex flex-col md:flex-row gap-3 text-[14px] md:text-base md:divide-x-2 divide-black">
+          <p className="md:pr-16 md:text-justify">
+            Lorem ipsum dolor sit amet consectetur. Nisl lorem pretium tellus a
+            tellus in. Vulputate in habitant elit varius. Duis facilisi sed orci
+            sed a urna vel libero. Cras in vitae placerat ultrices. At elit urna
+            molestie pellentesque vitae eu mi dignissim nulla. Lectus massa eget
+            felis egestas nibh. Quis viverra tempus odio leo vehicula.
+          </p>
+          <p className="md:pl-16 md:text-justify">
+            Lorem ipsum dolor sit amet consectetur. Nisl lorem pretium tellus a
+            tellus in. Vulputate in habitant elit varius. Duis facilisi sed orci
+            sed a urna vel libero. Cras in vitae placerat ultrices. At elit urna
+            molestie pellentesque vitae eu mi dignissim nulla. Lectus massa eget
+            felis egestas nibh. Quis viverra tempus odio leo vehicula.
+          </p>
+        </div>
+      </section>
     </PageContainer>
   );
 }
