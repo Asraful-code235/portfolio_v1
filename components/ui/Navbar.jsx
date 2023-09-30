@@ -46,11 +46,15 @@ export default function Navbar() {
       {isMobileMenuOpen ? (
         <ul className="md:hidden flex flex-col gap-6">
           {navLinks.map((link) => (
-            <Link key={link.title} href={link.href} className="">
+            <Link
+              key={link.title}
+              href={link.href}
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
               {link.title}
             </Link>
           ))}
-          <Link href="/contact">
+          <Link href="/contact" onClick={() => setIsMobileMenuOpen(false)}>
             <Button variant="warning" className="w-fit">
               Let&apos;s Talk
             </Button>
