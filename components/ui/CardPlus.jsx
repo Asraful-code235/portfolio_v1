@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
+
 import Button from "./Button";
 import Card from "./Card";
 
@@ -12,7 +13,12 @@ export default function CardPlus({ data }) {
         <div className="space-y-3">
           <div className="flex justify-between items-center">
             <h2 className="text-xl md:text-3xl">{data.name}</h2>
-            <Link href="#" className="flex items-center gap-2">
+            <Link
+              href={`/portfolio/${data.name
+                .toLowerCase()
+                .replaceAll(" ", "-")}`}
+              className="flex items-center gap-2"
+            >
               View Project
               <ArrowUpRight className="w-4" />
             </Link>

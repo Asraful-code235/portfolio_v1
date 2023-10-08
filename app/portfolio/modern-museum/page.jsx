@@ -1,26 +1,27 @@
 import Image from "next/image";
 import PageContainer from "@/components/ui/PageContainer";
 import {
-  byblos,
-  product,
-  productPlaceholder,
-  products,
-  widePhones,
-  window,
+  modernMuseum,
+  modernMuseum1,
+  modernMuseum2,
+  modernMuseum3,
+  modernMuseum4,
+  modernMuseumGrid,
+  phoneScreens,
 } from "@/public/images";
 
-export default function PortfolioDetails() {
+export default function ModernMuseum() {
   return (
     <PageContainer className="space-y-6 md:space-y-10">
       <Image
-        src={productPlaceholder}
-        alt="portfolio-banner"
+        src={modernMuseum}
+        alt="modern-museum"
         className="w-full rounded-lg"
       />
 
       <section className="text-sm md:text-base space-y-6 md:space-y-10">
         <h3 className="pb-3 md:pb-8 border-b-2 border-black text-xl md:text-[32px]">
-          La Mèmoire
+          MODERN MUSEUM
         </h3>
 
         <div className="flex flex-col md:flex-row gap-6 md:gap-0 md:divide-x-2 divide-black">
@@ -59,14 +60,7 @@ export default function PortfolioDetails() {
       </section>
 
       <section className="border-t-2 md:border-t-0 border-black py-6 space-y-6 md:space-y-10">
-        <div className="grid grid-cols-3 gap-3 md:gap-4">
-          <div className="col-span-2">
-            <Image src={window} alt="window" className="w-full h-full" />
-          </div>
-          <div className="">
-            <Image src={byblos} alt="byblos" className="w-full h-full flex-1" />
-          </div>
-        </div>
+        <Image src={phoneScreens} alt="window" className="w-full rounded-lg" />
 
         <p className="text-xl md:text-6xl">
           Lorem ipsum dolor sit amet consectetur. Tempus venenatis eu sagittis
@@ -75,8 +69,8 @@ export default function PortfolioDetails() {
       </section>
 
       <section className="space-y-6 md:space-y-8">
-        <h3 className="text-xl font-medium md:text-[32px] md:pb-8 md:border-b-2 border-black">
-          La Mèmoire
+        <h3 className="text-xl font-medium md:text-[32px] md:pb-8 md:border-b-2 border-black uppercase">
+          modern museum
         </h3>
         <div className="flex flex-col md:flex-row gap-3 text-[14px] md:text-base md:divide-x-2 divide-black">
           <p className="md:pr-16 md:text-justify">
@@ -96,13 +90,17 @@ export default function PortfolioDetails() {
         </div>
       </section>
 
-      <section className="grid grid-cols-2 gap-3 md:gap-4 ">
-        <Image src={widePhones} alt="wide-phones" className="col-span-2" />
-        <Image src={products} alt="product-1" className="" />
-        <Image src={product} alt="product-2" className="" />
+      <section className="grid grid-cols-2 gap-3 md:gap-4 border-t-2 md:border-0 border-black pt-6 md:pt-0">
+        <Image
+          src={modernMuseumGrid}
+          alt="modern-museum-grid"
+          className="col-span-2"
+        />
+        <Image src={modernMuseum1} alt="modern-museum-1" className="" />
+        <Image src={modernMuseum2} alt="modern-museum-2" className="" />
+        <Image src={modernMuseum3} alt="modern-museum-2" className="" />
+        <Image src={modernMuseum4} alt="modern-museum-2" className="" />
       </section>
-
-      <video controls src="" className="w-full bg-black rounded-lg"></video>
     </PageContainer>
   );
 }
