@@ -18,6 +18,15 @@ import modernMuseum1 from "./modern-museum-1.png";
 import modernMuseum2 from "./modern-museum-2.png";
 import modernMuseum3 from "./modern-museum-3.png";
 import modernMuseum4 from "./modern-museum-4.png";
+import sensitivaHero from "./sensitiva-hero.png";
+import sensitivaGrid from "./sensitiva-grid.png";
+import sensitivaWide from "./sensitiva-wide.png";
+import sensitiva1 from "./sensitiva-1.png";
+import sensitiva2 from "./sensitiva-2.png";
+import sensitiva3 from "./sensitiva-3.png";
+import sensitiva4 from "./sensitiva-4.png";
+import sensitiva5 from "./sensitiva-5.png";
+import sensitiva6 from "./sensitiva-6.png";
 
 export {
   fresh,
@@ -40,4 +49,13 @@ export {
   modernMuseum2,
   modernMuseum3,
   modernMuseum4,
+  sensitivaHero,
+  sensitivaGrid,
+  sensitivaWide,
+  sensitiva1,
+  sensitiva2,
+  sensitiva3,
+  sensitiva4,
+  sensitiva5,
+  sensitiva6,
 };
