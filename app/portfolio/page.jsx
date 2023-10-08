@@ -1,8 +1,8 @@
+import { cardsData } from "@/constants/homePage";
 import Card from "@/components/ui/Card";
 import CardPlus from "@/components/ui/CardPlus";
 import PageContainer from "@/components/ui/PageContainer";
 import Pagination from "@/components/ui/Pagination";
-import { cardsData } from "@/constants/homePage";
 
 export default function page() {
   return (

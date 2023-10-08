@@ -2,9 +2,10 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { Menu, X } from "lucide-react";
+
 import { navLinks } from "@/constants/navbar";
 import { logo } from "@/public/images";
-import { Menu, X } from "lucide-react";
 import Button from "./Button";
 
 export default function Navbar() {
